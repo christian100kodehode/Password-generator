@@ -1,0 +1,182 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  box-sizing: border-box;
+}
+
+.container {
+  position: absolute;
+  width: 1253px;
+  height: 678px;
+
+  background: #1c1c1c;
+}
+
+.generator {
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  left: 62px;
+  top: 64px;
+
+  background: #1f2937;
+}
+
+h1 {
+  position: absolute;
+  width: 354px;
+  height: 180px;
+  left: 52px;
+  top: 118px;
+
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+  /* or 100% */
+
+  letter-spacing: -0.025em;
+
+  /* white */
+
+  color: #ffffff;
+}
+
+h1 span {
+  color: #10b981;
+}
+
+.supporttext {
+  position: absolute;
+  width: 372px;
+  height: 28px;
+  left: 52px;
+  top: 208px;
+
+  /* text-xl/leading-7/font-normal */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  /* Medium grey */
+
+  color: #d5d4d8;
+}
+/* Generate and Reset buttons */
+#generatebutton,
+#generatebutton2 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 17px 9px 15px;
+  background: #10b981;
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  color: white;
+}
+
+#generatebutton {
+  width: 223px;
+  height: 42px;
+  left: 52px;
+  top: 287px;
+}
+#generatebutton2 {
+  width: 51px;
+  height: 42px;
+  left: 287px;
+  top: 287px;
+}
+/* Border before Passwords and copy buttons */
+#borderforbuttton {
+  position: absolute;
+  width: 446px;
+  height: 0px;
+  left: 52px;
+  top: 364px;
+
+  border: 1px solid #2f3e53;
+}
+/* Password button to insert passwords into */
+#emptybutton1,
+#emptybutton2,
+#emptybutton3,
+#emptybutton4 {
+  position: absolute;
+  width: 211px;
+  height: 39px;
+  background: #273549;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#emptybutton1 {
+  left: 52px;
+  top: 399px;
+}
+
+#emptybutton2 {
+  left: 52px;
+  top: 465px;
+}
+#emptybutton3 {
+  left: 287px;
+  top: 399px;
+}
+#emptybutton4 {
+  left: 287px;
+  top: 465px;
+}
+/* Copy buttons */
+#copybuttonpass1,
+#copybuttonpass2,
+#copybuttonpass3,
+#copybuttonpass4 {
+  position: absolute;
+  width: 41px;
+  height: 39px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  background: #273549;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#copybuttonpass1 {
+  left: 222px;
+  top: 399px;
+}
+
+#copybuttonpass2 {
+  left: 222px;
+  top: 465px;
+}
+
+#copybuttonpass3 {
+  left: 457px;
+  top: 399px;
+}
+
+#copybuttonpass4 {
+  left: 457px;
+  top: 465px;
+}
