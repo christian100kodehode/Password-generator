@@ -149,7 +149,7 @@ h1 span {
 #copybuttonpass3,
 #copybuttonpass4 {
   position: absolute;
-  width: 89px;
+  width: 79px;
   height: 39px;
   font-family: "Inter";
   font-style: normal;
@@ -165,21 +165,25 @@ h1 span {
 }
 
 #copybuttonpass1 {
-  left: 193px;
+  left: 203px;
   top: 399px;
 }
 
 #copybuttonpass2 {
-  left: 193px;
+  left: 203px;
   top: 465px;
 }
 
 #copybuttonpass3 {
-  left: 428px;
+  left: 438px;
   top: 399px;
 }
 
 #copybuttonpass4 {
-  left: 428px;
+  left: 438px;
   top: 465px;
+}
+
+.icondots {
+  padding-left: 55px;
 }
