@@ -115,7 +115,7 @@ h1 span {
   border-radius: 6px;
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   padding-left: 15px;
   color: white;
   font-family: "Inter";
@@ -141,46 +141,6 @@ h1 span {
 }
 #emptybutton4 {
   left: 287px;
-  top: 465px;
-}
-/* Copy buttons */
-#copybuttonpass1,
-#copybuttonpass2,
-#copybuttonpass3,
-#copybuttonpass4 {
-  position: absolute;
-  width: 79px;
-  height: 39px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 22px;
-  background: #273549;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-}
-
-#copybuttonpass1 {
-  left: 203px;
-  top: 399px;
-}
-
-#copybuttonpass2 {
-  left: 203px;
-  top: 465px;
-}
-
-#copybuttonpass3 {
-  left: 438px;
-  top: 399px;
-}
-
-#copybuttonpass4 {
-  left: 438px;
   top: 465px;
 }
 
